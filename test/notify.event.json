@@ -1,0 +1,48 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROA3IAHBJ4GJXCWNCQ7Z:244253013f1c36888a07ab48e82bfb93",
+        "arn": "arn:aws:sts::NNNNNNNNNNN:assumed-role/teststack-AwsGlueDemoStack-roleEventBridge6B925B6E-USYTKYNDN7PR/244253013f1c36888a07ab48e82bfb93",
+        "accountId": "NNNNNNNNNNN",
+        "accessKeyId": "ASIA3IAHBJ4GDXTP425R",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROA3IAHBJ4GJXCWNCQ7Z",
+                "arn": "arn:aws:iam::NNNNNNNNNNN:role/teststack-AwsGlueDemoStack-roleEventBridge6B925B6E-USYTKYNDN7PR",
+                "accountId": "NNNNNNNNNNN",
+                "userName": "teststack-AwsGlueDemoStack-roleEventBridge6B925B6E-USYTKYNDN7PR"
+            },
+            "attributes": {
+                "creationDate": "2023-04-14T05:05:24Z",
+                "mfaAuthenticated": "false"
+            }
+        },
+        "invokedBy": "events.amazonaws.com"
+    },
+    "eventTime": "2023-04-14T05:05:24Z",
+    "eventSource": "glue.amazonaws.com",
+    "eventName": "NotifyEvent",
+    "awsRegion": "us-west-1",
+    "sourceIPAddress": "events.amazonaws.com",
+    "userAgent": "events.amazonaws.com",
+    "requestParameters": {
+        "target": {
+            "workflowName": "GlueWorflow"
+        },
+        "ruleName": "teststack-AwsGlueDemoStack-EventRuleGlue-IQFQKQCIWM2K",
+        "eventPayload": {
+            "eventId": "0b6ad2dc-8df6-7eea-1bad-6a60667ab37f",
+            "eventBody": "{\"version\":\"0\",\"id\":\"0b6ad2dc-8df6-7eea-1bad-6a60667ab37f\",\"detail-type\":\"Object Created\",\"source\":\"aws.s3\",\"account\":\"NNNNNNNNNNN\",\"time\":\"2023-04-14T05:05:22Z\",\"region\":\"us-west-1\",\"resources\":[\"arn:aws:s3:::teststack-stagestack-bucketstaging876d51a1-7dk3qz8vwr9u\"],\"detail\":{\"version\":\"0\",\"bucket\":{\"name\":\"teststack-stagestack-bucketstaging876d51a1-7dk3qz8vwr9u\"},\"object\":{\"key\":\"WA_Fn-UseC_-Telco-Customer-Churn.csv\",\"size\":977501,\"etag\":\"0f9de68e012bd3aed5fa7cdc9fc421af\",\"sequencer\":\"006438DF1245889D97\"},\"request-id\":\"AMXWRWEA6J81RZ2P\",\"requester\":\"NNNNNNNNNNN\",\"source-ip-address\":\"NNNNNNNNNNN\",\"reason\":\"PutObject\"}}"
+        }
+    },
+    "responseElements": null,
+    "requestID": "974685ea-0ed6-4560-a830-c7921387c3c4",
+    "eventID": "bd0d3a9f-dc2b-4226-96a5-4d0d6d1a3143",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "NNNNNNNNNNN",
+    "eventCategory": "Management"
+}

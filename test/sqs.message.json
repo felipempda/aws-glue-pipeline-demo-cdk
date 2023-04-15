@@ -1,0 +1,38 @@
+{
+    "Records": [
+      {
+        "eventVersion": "2.1",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-west-1",
+        "eventTime": "2023-04-14T01:07:03.163Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+          "principalId": "AWS:AROA3IAHBJ4GIUH7SST2B:teststack-ImportFileStack-CustomCDKBucketDeploymen-CLYOrH3Zt7lk"
+        },
+        "requestParameters": {
+          "sourceIPAddress": "54.67.23.182"
+        },
+        "responseElements": {
+          "x-amz-request-id": "53E35FBGVXP8HZ9F",
+          "x-amz-id-2": "o/b+x0b+AqnXM2pdh3iWpJTdPenu4ybB9uaAe6aByXJ7Hd/n7G2dqxzz359ZuP/KqOvmV4NYxo2eX5kZUfErEEr9EVwG0o9X"
+        },
+        "s3": {
+          "s3SchemaVersion": "1.0",
+          "configurationId": "NTllMDliNGMtY2I0ZC00MjNiLThiYTctZjZhYjFlNTU5YWZj",
+          "bucket": {
+            "name": "teststack-stagestack-bucketstaging-u75ozr25wwmt",
+            "ownerIdentity": {
+              "principalId": "A26PV2QDCSLRNW"
+            },
+            "arn": "arn:aws:s3:::teststack-stagestack-bucketstaging-u75ozr25wwmt"
+          },
+          "object": {
+            "key": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
+            "size": 977501,
+            "eTag": "0f9de68e012bd3aed5fa7cdc9fc421af",
+            "sequencer": "006438A73706AE81B6"
+          }
+        }
+      }
+    ]
+  }
